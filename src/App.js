@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Grommet, ResponsiveContext } from 'grommet';
+import { Box, Grommet, ResponsiveContext, Heading } from 'grommet';
 import { grommet, dark } from 'grommet/themes';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
                 <Grommet>
                     <ResponsiveContext.Consumer>
                         {size => (
-                            <Box fill background='brand'>
+                            <Box width='100vw' height='100vh' background="url(https://cdn.royalcanin-weshare-online.io/GvqPH2YBIYfdNSoCoAgj/v1/bd18bl-bernese-mountain-dog-adult-standing)">
                                 <Heading>{`Sunday Dog`}</Heading>
                             </Box>
                         )}
