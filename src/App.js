@@ -10,11 +10,10 @@ function App() {
                 <Grommet>
                     <ResponsiveContext.Consumer>
                         {size => (
-                            <Box overflow='hidden' justify='center' width='100vw' height='100vh'>
-                                <Stack>
+                            <Box overflow='hidden' justify='center' width='110vw' height='110vh'>
+                                <Stack fill >
+                                    <Image src={Sunday} size='large'/>
                                     <Heading alignSelf='center' color='blue'>{'Sunday Dog'}</Heading>
-                                    <Image src={Sunday}>
-                                    </Image>
                                 </Stack>
                             </Box>
                         )}
