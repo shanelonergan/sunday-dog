@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+[Sunday](sunday-dog/public/sunday-with-ball.jpg)
+
 ## Available Scripts
 
 In the project directory, you can run:
