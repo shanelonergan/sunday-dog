@@ -1,6 +1,7 @@
 import React from 'react';
-import { Box, Grommet, ResponsiveContext, Heading } from 'grommet';
+import { Box, Grommet, ResponsiveContext, Heading, Stack, Image } from 'grommet';
 import { grommet, dark } from 'grommet/themes';
+import Sunday from './img/sunday-with-ball.jpg'
 
 function App() {
     return (
@@ -9,8 +10,12 @@ function App() {
                 <Grommet>
                     <ResponsiveContext.Consumer>
                         {size => (
-                            <Box overflow='hidden' justify='center' width='100vw' height='100vh' background="url(/public/sunday-with-ball.jpg)">
-                                <Heading alignSelf='center' color='white'>{'Sunday Dog'}</Heading>
+                            <Box overflow='hidden' justify='center' width='100vw' height='100vh'>
+                                <Stack>
+                                    <Heading alignSelf='center' color='blue'>{'Sunday Dog'}</Heading>
+                                    <Image src={Sunday}>
+                                    </Image>
+                                </Stack>
                             </Box>
                         )}
                     </ResponsiveContext.Consumer>
